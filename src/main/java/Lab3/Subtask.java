@@ -1,7 +1,7 @@
 package Lab3;
 
 public class Subtask extends Task {
-    private final String subtaskName;
+    String subtaskName;
     String getSubtaskName() {
         return null;
     }
@@ -19,7 +19,7 @@ public class Subtask extends Task {
 
 
 
-    public Subtask(String taskName, String taskDescription, TaskCategory taskCategory, String taskDateTimeStop, String subtaskName) {
+    public Subtask(String taskName, String taskDescription, TaskCategory taskCategory) {
         super(taskName, taskDescription, taskCategory);
         this.subtaskName = subtaskName;
     }

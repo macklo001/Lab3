@@ -1,8 +1,8 @@
 package Lab3;
 
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@NoArgsConstructor
+
 
 
 public class Subtask extends Task {

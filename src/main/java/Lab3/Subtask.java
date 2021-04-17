@@ -1,10 +1,5 @@
 package Lab3;
 
-import lombok.*;
-
-
-
-
 public class Subtask extends Task {
     private final String subtaskName;
     String getSubtaskName() {

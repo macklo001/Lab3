@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 
 public class Subtask extends Task {
     String subtaskName;
+
     String getSubtaskName() {
         return null;
     }
@@ -19,14 +20,12 @@ public class Subtask extends Task {
                 '}';
     }
 
-
+    public Subtask(){}
     public Subtask(String taskName, String taskDescription, TaskCategory taskCategory) {
         super(taskName, taskDescription, taskCategory);
         this.subtaskName = subtaskName;
 
     }
-   // public Subtask(){
 
 
-    }
-
+}

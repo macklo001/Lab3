@@ -15,6 +15,9 @@ public class Task {
     public Task(String taskName, String taskDescription, TaskCategory taskCategory) {
     }
 
+    public Task() {
+    }
+
     public String toString() {
         return "Name: " + this.taskName + ", Description: " + this.taskDescription + ", Category: " + this.taskCategory.name() + ", Time start: " + this.taskDateTimeStart + ", Time stop: " + this.taskDateTimeStop;
     }

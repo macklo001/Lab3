@@ -11,7 +11,7 @@ public class main {
         Object sześć= new Subtask("dom", "garaż", TaskCategory.DONE);
     }
 
-   // public void getDetailInfo(Object o) {
-
-   // }
+    public void getDetailInfo(Object o) {
+        System.out.println("sprawa się udała");
+    }
 }

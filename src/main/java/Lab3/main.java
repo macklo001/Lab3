@@ -6,12 +6,12 @@ public class main {
         Task raz = new Task("Milość", "Sen", TaskCategory.IN_PROGRESS);
         Task dwa = new Task("śnieg", "Deszcz", TaskCategory.DONE);
         Task trzy = new Task("kaczkać", "Sedan", TaskCategory.NEW);
-        Subtask cztery = new Subtask("pies", "kot", TaskCategory.DONE);
-        Subtask pięc = new Subtask("kon", "zebra", TaskCategory.DONE);
-        Subtask sześć= new Subtask("dom", "garaż", TaskCategory.DONE);
+        Object cztery = new Subtask("pies", "kot", TaskCategory.DONE);
+        Object pięc = new Subtask("kon", "zebra", TaskCategory.DONE);
+        Object sześć= new Subtask("dom", "garaż", TaskCategory.DONE);
     }
 
-    public void getDetailInfo(Object o) {
+   // public void getDetailInfo(Object o) {
 
-    }
+   // }
 }
